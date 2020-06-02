@@ -77,7 +77,7 @@ public interface LowLevelFileSystem {
    *          ejecutará cuando la operación de lectura asincrónica se haya
    *          concretado. Le llega por parámetro la cantidad de bytes leidos
    *          efectivamente. Para cuando el {@link LowLevelFileSystem} ejecute
-   *          este callabck, este {@link LowLevelFileSystem} ya habrá
+   *          este callback, este {@link LowLevelFileSystem} ya habrá
    *          actualizado el buffer
    */
   void asyncReadFile(int fd, byte[] bufferBytes, int bufferStart, int bufferEnd,
